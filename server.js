@@ -37,14 +37,14 @@ app.use((req,res,next)=>{
 
 
 
-app.use((req,res,next)=>{
-
-    res.render('maintenance.hbs',{
-        pageTitle:'Home page'
-    });
-    next();
-
-});
+// app.use((req,res,next)=>{
+//
+//     res.render('maintenance.hbs',{
+//         pageTitle:'Home page'
+//     });
+//     next();
+//
+// });
 
 app.use(express.static(__dirname+'/public'));
 
